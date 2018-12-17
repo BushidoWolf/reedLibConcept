@@ -1,0 +1,23 @@
+* {font-family: Shanti;}
+#hamMenu{ display: none;}
+.menu {background-color: 777777;}
+#moreButton{display: block;}
+#exMenu{ display: none;}
+/* Down Arrow: &#9660*/
+/* target="_blank" for a new tab */
+
+@media only screen and (max-width: 1024px) {
+    nav{ display: none;}
+    #hamMenu{ display: block;
+        width: 10%;
+        height: 5%;}
+    #moreButton{ display: none; }
+    #exMenu{ display: block;}
+}
+
+@media only screen and (max-width: 768px) {
+    nav{ display: none;}
+    #hamMenu{ display: block;}
+    #moreButton{ display: none; }
+    #exMenu{ display: block;}
+}
