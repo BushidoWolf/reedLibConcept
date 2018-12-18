@@ -1,31 +1,63 @@
 * {font-family: Helvetica, Arial, sans-serif;}
-body { background-image: url("images/brick_wall_bg.jpg");
-    background-size: cover;
-background-position: center;}
+body { background-image: url("images/brick_wall_bg1.jpg");
+    background-size: contain;}
 #hamMenu{ display: none;}
 .menu {background-color: #999999;}
 nav a { text-decoration: none;
     font-weight: bold;
-    background-image: url("images/book.jpg");
+    background-image: url("images/book3.jpg");
     background-size: contain;
-    display: inline-block;
-    font-size: 1.3em;
+    display: inline-grid;
+    font-size: 1.8em;
+    text-align: center;
     width: 16%;
     height: 7%;}
-nav a:link { color: #FEF6C2;}
-nav a:hover { color: #880000;}
-nav a:visited { color: #000088;}
-nav a:visited:hover {color: #950000;}
-nav a:focus { color: #950000;}
-.external { target: "_blank";}
+nav a:link { color: #DDDD00;}
+nav a:visited { color: #0000AA;}
+nav a:visited:hover {color: #AA0000;}
+nav a:hover { color: #AA0000;}
+nav a:focus { color: #AA0000;}
+
 #banner{ width: 60%;
     height: 15%;
     display: inline-block;}
 #logo{ width: 25%;
     height: 15%;
     display: inline-block;}
-#moreButton{display: inline-block;}
+#moreButton{display: inline-grid;}
 #exMenu{ display: none;}
+
+
+/*-----------------------------------------
+--------- FOOTER---------------------------
+-----------------------------------------*/
+footer{ background-color: #999999;}
+#countyBanner{ width: 95%;
+     height: 20%;
+     frameborder: 0;
+ background-color: #FFFFFF;}
+ #map{ width: 40%;
+     height: 35%;
+     frameborder: 0;
+     border: 0;
+     display: inline-block;}
+ #mapLink{ display: none;}
+ .links { text-decoration: none;}
+ .links:link { color: #DDDD00; }
+ .links:visited { color: #0000AA;}
+ .links:visited:hover {color: #AA0000;}
+ .links:hover { color: #AA0000;}
+ .links:focus { color: #AA0000;}
+ td{ border-bottom: 3px solid #000000;}
+
+.catalogBut{ }
+.contactInfo{}
+.contactInfo ul { list-style-type: none;}
+#desktopPhone{display: inline;}
+#mobilePhone{ display: none;}
+.maps{}
+.hours{}
+.support{}
 /* Down Arrow: &#9660*/
 /* target="_blank" for a new tab */
 
@@ -52,6 +84,17 @@ nav a:focus { color: #950000;}
         height: 15%;}
     #banner { width: 65%;
         height: 15%;}
+    #map{ display: none;}
+    #mapLink{ display: block;
+        text-decoration: none;
+        font-weight: bold;
+        background-image: url("images/book3.jpg");
+        background-size: contain;
+        display: inline-grid;
+        font-size: 3em;
+        text-align: center;
+        width: 30%;
+        height: 10%; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -79,6 +122,44 @@ nav a:focus { color: #950000;}
         margin: auto;
         width: 95%;
         height: 15%;}
+
+/*------ Footer ----- */
+
+    #map{ display: none;}
+    #mapLink{ display: block;
+        margin: auto;
+        text-decoration: none;
+        font-weight: bold;
+        background-image: url("images/book3.jpg");
+        background-size: cover;
+        font-size: 1.5em;
+        text-align: center;
+        width: 30%;
+        height: 7%;}
+    #mapLink:link { color: #DDDD00; }
+    #mapLink:visited { color: #0000AA;}
+    #mapLink:visited:hover {color: #AA0000;}
+    #mapLink:hover { color: #AA0000;}
+    #mapLink:focus { color: #AA0000;}
+    #countyBanner{ width: 98%;
+        height: 40%;
+    margin: auto;}
+        .catalogBut{ margin: auto;
+            display: block;}
+        .contactInfo{margin: auto;
+            display: block;}
+        #desktopPhone{display: none;}
+        #mobilePhone{ display: inline;}
+        .maps{ margin: auto;
+            display: block;}
+        .hours{ display: block;
+        margin: auto;}
+        h4 {text-align: center;}
+        .hours table { margin: auto;}
+        .support{ display: block;
+            margin: auto;
+            width: 90%;}
+        .support p{ text-align: center;}
 }
 
 /*
