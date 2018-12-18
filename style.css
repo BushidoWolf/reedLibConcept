@@ -1,26 +1,84 @@
-* {font-family: Shanti;}
+* {font-family: Helvetica, Arial, sans-serif;}
+body { background-image: url("images/brick_wall_bg.jpg");
+    background-size: cover;
+background-position: center;}
 #hamMenu{ display: none;}
-.menu {background-color: 777777;}
-#moreButton{display: block;}
+.menu {background-color: #999999;}
+nav a { text-decoration: none;
+    font-weight: bold;
+    background-image: url("images/book.jpg");
+    background-size: contain;
+    display: inline-block;
+    font-size: 1.3em;
+    width: 16%;
+    height: 7%;}
+nav a:link { color: #FEF6C2;}
+nav a:hover { color: #880000;}
+nav a:visited { color: #000088;}
+nav a:visited:hover {color: #950000;}
+nav a:focus { color: #950000;}
+.external { target: "_blank";}
+#banner{ width: 60%;
+    height: 15%;
+    display: inline-block;}
+#logo{ width: 25%;
+    height: 15%;
+    display: inline-block;}
+#moreButton{display: inline-block;}
 #exMenu{ display: none;}
 /* Down Arrow: &#9660*/
 /* target="_blank" for a new tab */
 
 @media only screen and (max-width: 1024px) {
-    nav{ display: none;}
+
+    nav{ display: none;
+        width: 100%;
+        height: 70%;
+        margin: auto;}
+    nav a { display: block;
+        width: 100%;
+        height: 10%;
+        font-size: 4.5em;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 10px;}
     #hamMenu{ display: block;
         width: 10%;
         height: 5%;
-        align-content: }
+        margin-left: auto;}
     #moreButton{ display: none; }
     #exMenu{ display: block;}
+    #logo{ width: 30%;
+        height: 15%;}
+    #banner { width: 65%;
+        height: 15%;}
 }
 
 @media only screen and (max-width: 768px) {
-    nav{ display: none;}
-    #hamMenu{ display: block;}
+
+    nav{ display: none;
+        width: 100%;
+        height: 70%;
+        margin: auto;}
+    nav a { display: block;
+        width: 100%;
+        height: 10%;
+        font-size: 2em;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 7px;}
+    #hamMenu{ display: block;
+    margin-left: auto;}
     #moreButton{ display: none; }
     #exMenu{ display: block;}
+    #logo{ display: block;
+        margin: auto;
+        width: 35%;
+        height: 15%;}
+    #banner { display: block;
+        margin: auto;
+        width: 95%;
+        height: 15%;}
 }
 
 /*
