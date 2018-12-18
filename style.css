@@ -11,12 +11,13 @@ nav a { text-decoration: none;
     font-size: 1.8em;
     text-align: center;
     width: 16%;
-    height: 7%;}
+    height: 7%;
+    padding-top: 8px;}
 nav a:link { color: #DDDD00;}
 nav a:visited { color: #0000AA;}
 nav a:visited:hover {color: #AA0000;}
-nav a:hover { color: #AA0000;}
-nav a:focus { color: #AA0000;}
+nav a:hover { color: #DD0000;}
+nav a:focus { color: #DD0000;}
 
 #banner{ width: 60%;
     height: 15%;
@@ -31,38 +32,63 @@ nav a:focus { color: #AA0000;}
 /*-----------------------------------------
 --------- FOOTER---------------------------
 -----------------------------------------*/
-footer{ background-color: #999999;}
-#countyBanner{ width: 95%;
-     height: 20%;
-     frameborder: 0;
- background-color: #FFFFFF;}
- #map{ width: 40%;
+footer{ background-color: #999999;
+    width: 98%;
+    margin: auto;}
+#county{ margin: auto;}
+#countyBanner{ width: 100%;
+    height: 20%;
+    frameborder: 0;
+    background-color: #FFFFFF;
+    margin: auto;}
+ #map{ width: 100%;
      height: 35%;
      frameborder: 0;
      border: 0;
-     display: inline-block;}
+     display: block;}
+ #mapDiv{ display: block;
+     margin: auto;
+    width: 100%;}
  #mapLink{ display: none;}
  .links { text-decoration: none;}
  .links:link { color: #DDDD00; }
  .links:visited { color: #0000AA;}
  .links:visited:hover {color: #AA0000;}
- .links:hover { color: #AA0000;}
- .links:focus { color: #AA0000;}
+ .links:hover { color: #DD0000;}
+ .links:focus { color: #DD0000;}
  td{ border-bottom: 3px solid #000000;}
 
-.catalogBut{ }
-.contactInfo{}
+#mostFooter{ margin: auto;
+    display: block;}
+.catalogBut{ display: inline-flex;
+    flex-wrap: row wrap;
+    margin: auto;
+    margin-left: 5%;}
+.contactInfo{ display: inline-flex;
+    flex-wrap: row wrap;
+    margin: auto;
+    margin-left: 5%;}
 .contactInfo ul { list-style-type: none;}
 #desktopPhone{display: inline;}
 #mobilePhone{ display: none;}
-.maps{}
-.hours{}
-.support{}
+.maps{ display: inline-flex;
+    flex-wrap: row wrap;
+    margin: auto;
+    margin-left: 5%;}
+.hours{ display: inline-flex;
+    flex-wrap: row wrap;
+    margin: auto;
+    margin-left: 5%;}
+.support{ display: block;
+    width: 90%;
+    margin: auto;}
+#supportBlurb{ margin: auto;
+    text-align: center;}
 /* Down Arrow: &#9660*/
 /* target="_blank" for a new tab */
 
 @media only screen and (max-width: 1024px) {
-
+    *{ font-size: 3vw;}
     nav{ display: none;
         width: 100%;
         height: 70%;
@@ -70,7 +96,7 @@ footer{ background-color: #999999;}
     nav a { display: block;
         width: 100%;
         height: 10%;
-        font-size: 4.5em;
+        font-size: 7vw;
         text-align: center;
         margin-left: auto;
         margin-bottom: 10px;}
@@ -86,15 +112,20 @@ footer{ background-color: #999999;}
         height: 15%;}
     #map{ display: none;}
     #mapLink{ display: block;
+        margin: auto;
         text-decoration: none;
         font-weight: bold;
         background-image: url("images/book3.jpg");
         background-size: contain;
-        display: inline-grid;
-        font-size: 3em;
+        font-size: 3vw;
         text-align: center;
-        width: 30%;
-        height: 10%; }
+        padding: 5px;}
+    #mapLink:link { color: #DDDD00; }
+    #mapLink:visited { color: #0000AA;}
+    #mapLink:visited:hover {color: #AA0000;}
+    #mapLink:hover { color: #DD0000;}
+    #mapLink:focus { color: #DD0000;}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -139,15 +170,23 @@ footer{ background-color: #999999;}
     #mapLink:link { color: #DDDD00; }
     #mapLink:visited { color: #0000AA;}
     #mapLink:visited:hover {color: #AA0000;}
-    #mapLink:hover { color: #AA0000;}
-    #mapLink:focus { color: #AA0000;}
+    #mapLink:hover { color: #DD0000;}
+    #mapLink:focus { color: #DD0000;}
     #countyBanner{ width: 98%;
         height: 40%;
     margin: auto;}
         .catalogBut{ margin: auto;
             display: block;}
+        .catalogIMG {margin: 0;
+            text-align: center;
+        display: block;}
         .contactInfo{margin: auto;
             display: block;}
+        .contactInfoList {display: block;
+            margin: auto;
+            margin-left: 30%;}
+        .contactInfoList li {display: block;
+            margin: auto;}
         #desktopPhone{display: none;}
         #mobilePhone{ display: inline;}
         .maps{ margin: auto;

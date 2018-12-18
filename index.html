@@ -43,62 +43,75 @@
     <div id="county">
         <iframe id="countyBanner" src="http://putnamlibraries.info/just-a-menu/"></iframe>
     </div>
-   <div class="catalogBut">
-       <h4>Library Catalog</h4>
-       <img src="images/logo.png" alt="logo" height="20px" width="20px">
-   </div>
-   <div class="contactInfo">
-       <h4>Contact Us</h4>
-       <ul>
-           <li>Reed Memorial Library</li>
-           <li>1733 Route 6</li>
-           <li>Carmel, NY 10512</li>
-           <li>Phone: <span id="desktopPhone">845-225-2439</span><a href="tel:845-225-2439" id="mobilePhone">845-225-2439</a></li>
-           <li>Fax: 845-225-1436</li>
-           <li>Email: <a href="mailto:jbuck@carmellibrary.org">jbuck@carmellibrary.org</a></li>
-       </ul>
-
-   </div>
-   <div class="maps">
-       <h4>Maps:</h4>
-       <a href="https://goo.gl/maps/RMBx5E9yrHw" target="_blank" id="mapLink">Directions</a>
-       <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.79566515083!2d-73.68023178435838!3d41.42195410181406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd4da1e8314bb3%3A0xe00ec3abaeb4cb4d!2sReed+Memorial+Library!5e0!3m2!1sen!2sus!4v1545163250284" allowfullscreen></iframe>
-    </div>
-    <div class="hours">
-        <h4>Hours</h4>
-        <table>
-            <tr>
-                <td>Monday:</td>
-                <td>10:00AM - 5:00PM</td>
-            </tr>
-            <tr>
-                <td>Tuesday:</td>
-                <td>10:00AM - 8:00PM</td>
-            </tr>
-            <tr>
-                <td>Wednesday:</td>
-                <td>10:00AM - 5:00PM</td>
-            </tr>
-            <tr>
-                <td>Thursday:</td>
-                <td>10:00AM - 8:00PM</td>
-            </tr>
-            <tr>
-                <td>Friday:</td>
-                <td>10:00AM - 5:00PM</td>
-            </tr>
-            <tr>
-                <td>Saturday:</td>
-                <td>10:00AM - 3:00PM</td>
-            </tr>
-            <tr>
-                <td>Sunday:</td>
-                <td>Closed</td>
-            </tr>
-        </table>
+    <div id="mostFooter">
+       <div class="catalogBut">
+           <div>
+               <h4>Library Catalog</h4>
+               <a href="http://search.midhudsonlibraries.org/" target="_blank" class="catalogIMG"><img src="images/libbutton.jpg" class="catalogIMG" alt="Library Catalog Image"></a>
+           </div>
+       </div>
+       <div class="contactInfo">
+           <div>
+               <h4>Contact Us</h4>
+               <ul id="contactInfoList">
+                   <li>Reed Memorial Library</li>
+                   <li>1733 Route 6</li>
+                   <li>Carmel, NY 10512</li>
+                   <li>Phone: <span id="desktopPhone">845-225-2439</span><a href="tel:845-225-2439" id="mobilePhone">845-225-2439</a></li>
+                   <li>Fax: 845-225-1436</li>
+                   <li>Email: <a href="mailto:jbuck@carmellibrary.org">jbuck@carmellibrary.org</a></li>
+               </ul>
+           </div>
+       </div>
+       <div class="maps">
+           <div>
+               <h4>Maps:</h4>
+               <a href="https://goo.gl/maps/RMBx5E9yrHw" target="_blank" id="mapLink">Directions</a>
+               <div id="mapDiv">
+                   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.79566515083!2d-73.68023178435838!3d41.42195410181406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd4da1e8314bb3%3A0xe00ec3abaeb4cb4d!2sReed+Memorial+Library!5e0!3m2!1sen!2sus!4v1545163250284" allowfullscreen></iframe>
+               </div>
+           </div>
+        </div>
+        <div class="hours">
+            <div>
+                <h4>Hours</h4>
+                <table>
+                    <tr>
+                        <td>Monday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday:</td>
+                        <td>10:00AM - 8:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday:</td>
+                        <td>10:00AM - 8:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday:</td>
+                        <td>10:00AM - 3:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday:</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+       </div>
    </div>
    <div class="support">
-       <p>Part of the <a href="http://midhudson.org/about-mhls/" target="_blank" class="links">Mid Hudson Library System</a> | <a href="http://carmellibrary.org/wp-login.php" target="_blank" class="links">WebMaster Login</a> | <a href="mailto:bh05049p@pace.edu" class="links">Webmaster Email</a></p>
+       <div>
+           <p id="supportBlurb">Part of the <a href="http://midhudson.org/about-mhls/" target="_blank" class="links">Mid Hudson Library System</a> | <a href="http://carmellibrary.org/wp-login.php" target="_blank" class="links">WebMaster Login</a> | <a href="mailto:bh05049p@pace.edu" class="links">Webmaster Email</a></p>
+       </div>
    </div>
 </footer>
 
