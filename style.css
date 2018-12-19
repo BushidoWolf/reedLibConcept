@@ -2,7 +2,7 @@
 body { background-image: url("images/brick_wall_bg1.jpg");
     background-size: contain;}
 #hamMenu{ display: none;}
-.menu {background-color: #999999;}
+.menu {background-color: #BBBBBB;}
 nav a { text-decoration: none;
     font-weight: bold;
     background-image: url("images/book3.jpg");
@@ -23,7 +23,7 @@ nav a:focus { color: #DD0000;}
     height: 15%;
     display: inline-block;}
 #logo{ width: 25%;
-    height: 15%;
+    height: 18%;
     display: inline-block;}
 #moreButton{display: inline-grid;}
 #exMenu{ display: none;}
@@ -32,9 +32,21 @@ nav a:focus { color: #DD0000;}
     margin-right: auto;}
 .col2 {float: right;
     display: inline-block;
-    width: 35%;}
-#digiMagIMG{ width: 45%;
-        height: 20%;}
+    width: 22%;
+    background-color: #BBBBBB;}
+#digiMagIMG{ width: 50%;
+    height: 20%;
+    margin: auto;}
+.col2TXT { font-size: 1.2vw;}
+h3 { font-size: 1.8vw;
+    text-align: center;}
+.icos{ width: 50%;
+    height: 15%;
+    margin: auto;}
+.bold {font-weight: bold;}
+
+#social, #newsletter, #QS, #libraryElf, #digiMag {margin: auto;
+    text-align: center;}
 
 
 /*-----------------------------------------
