@@ -1,55 +1,177 @@
 <html lang="en">
 <head>
-    <title>JavaJam Coffee House</title>
+    <title>Home - Reed Memorial Library</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="images/reed_logo1.jpg">
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 </script>
 <![endif]-->
+
 </head>
 <body>
-    <script src="scripts.js"></script>
-  <div class="menu">
-    <img src="images/logo.png" alt="logo">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="ourwork.html">Our Work</a>
-      <a href="climate.html">Climate</a>
-      <a href="donate.html">Donate</a>
-    </nav>
-  </div>
+    <a href="index.html"><img src="images/reed_logo1.jpg" alt="Reed Memorial Library Logo" id="logo"><img src="images/reed_title6.png" alt="Reed Memorial Library Banner" id="banner"></a>
+    <div class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()"><img src="images/hamMenu.png" id="hamMenu"></a>
+        <nav id="navID">
+            <div>
+                <a href="index.html">Home</a>
+                <a href="kids.html">Kids</a>
+                <a href="calendar.html">Calendar</a>
+                <a href="librarycard.html">Library Card</a>
+                <a href="donate.html">Donate</a>
+                <a href="javascript:void(0)" id="moreButton" onclick="desktopMenu()">More &#9654;</a>
+            </div>
+            <div id="exMenu">
+                <a href="http://search.midhudsonlibraries.org/" target="_blank">Catalog</a>
+                <a href="community.html">Community</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="museum.html">Museum Passes</a>
+            </div>
+        </nav>
+    </div>
 <main>
- <h2>For 50 years, the WWF has been protecting the future of nature.</h2>
- <img class="images" src="images/Tiger.jpeg" alt="tiger">
- <h1>WHAT YOU CAN DO</h1>
- <p>You can have an extraordinary, positive impact on our natural world. When you help WWF protect species,
-   you contribute to a thriving, healthy planet. However, you choose to support WWF, we are deeply grateful. </p>
-   <h2>POPULAR WAYS TO GIVE</h2>
-   <img src="images/logo.png" alt="logo">
-   <h3>MAKE A ONE-TIME DONATION</h3>
-   <p>Become a member and support World Wildlife Fund's global conservation efforts with a one-time donation.</p>
-   <img src="images/logo.png" alt="logo">
-   <h3>ADOPT AN ANIMAL</h3>
-   <p>Make a symbolic animal adoption to help save some of the world's most endangered animals from extinction and support WWF's conservation efforts.</p>
-   <img src="images/logo.png" alt="logo">
-   <h3>BECOME A PARTNER IN CONVERSATION</h3>
-   <p>Make a special commitment with an annual contribution of $1,000 or more and receive special privileges.</p>
+<div class="col1">
+ <h1>Hi</h1>
+</div>
+<div class="col2">
+    <div id="upcoming">
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li class="col2TXT"><span class="bold">December 18, 2018</span> – Computer Help, 10:00 am</li>
+            <li class="col2TXT"><span class="bold">December 18, 2018</span> – STRESS RELEASE STRATEGIES, 10:30 am</li>
+            <li class="col2TXT"><span class="bold">December 18, 2018</span> – HOLIDAY COOKIES TO BAKE YOUR DAY!, 4:30 pm</li>
+            <li class="col2TXT"><span class="bold">December 19, 2018</span> – In Stitches Knitting Club, 10:30 am</li>
+            <li class="col2TXT"><span class="bold">December 20, 2018</span> – Computer Help, 10:00 am</li>
+        </ul>
+    </div>
+    <div id="social">
+        <h3>Follow Us!</h3>
+        <div id="socialbut">
+            <a href="http://www.facebook.com/ReedLibraryCarmel" target="_blank" id="socialbutt"><img class="icos" src="images/facebook.png" alt="Facebook button"></a>
+        </div>
+    </div>
+    <div id="newsletter">
+        <h3>Newsletter Signup</h3>
+        <div id="newsLet">
+            <a href="https://visitor.r20.constantcontact.com/d.jsp?llr=b9bzz6iab&p=oi&m=1109101676353&sit=mp8an8tgb&f=09160585-e5f9-4bb3-a057-8aba4aa5c2f1" target="_blank"><img class="icos" src="images/newsletter.png" alt="Newsletter Signup Button"></a>
+        </div>
+    </div>
+    <div id="QS">
+        <h3>Catalog Quick Search</h3>
+        <div id="quickSearch">
+            <form action="?" onsubmit="return searchEncore()" _lpchecked="1">
+
+            	<!-- REQUIRED with id="encoreSearchInput" -->
+                <input id="encoreSearchInput" type="text"  class="col2TXT">
+
+                <!-- REQUIRED INPUT with id="encoreBase": <ENCORE_FQDN> fully qualified domain name such as "encore.mylibrary.com" -->
+                <input type="hidden" id="encoreBase" value="http://search.midhudsonlibraries.org/iii/encore/search/">
+
+                <!-- OPTIONAL search location hidden field to limit to a predefined scope -->
+                <!-- <input type="hidden" id="encoreSearchLocation" value="__Lf:facetcollections:<Scope_#>:<Scope_#>:<Scope Label>::" /> -->
+
+            	<!-- OPTIONAL non-english language setting: <Language_Code> is code such as "spi" for spanish -->
+            	<!-- <input type="hidden" id="encoreLanguage" value="<Language_Code>" /> -->
+
+
+                <input type="submit" value="SUBMIT"  class="col2TXT">
+            </form>
+        </div>
+    </div>
+    <div id="libraryElf">
+        <h3>Library Elf</h3>
+        <div id="libElf">
+            <a href="https://www.libraryelf.com/base/SignUp.aspx?lib=Reed" target="_blank"><img class="icos" src="images/library_elf_logo.png" alt="Library Elf Button"></a>
+        </div>
+    </div>
+    <div id="mag">
+        <h3>Digital Magazines</h3>
+        <div id="digiMag">
+            <a href="https://www.rbdigital.com/midhudsonlibsysny/service/magazines/landing?" target="_blank"><img id="digiMagIMG" src="images/digiMagazine.jpg"></a>
+        </div>
+    </div>
+</div>
 </main>
 
 <footer>
-   <img src="images/logo.png" alt="logo" height="20px" width="20px">
-   <div id="social-section">
-      <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook" height="20px" width="20px"></a>
-      <a href="http://www.instagram.com"><img src="images/insta-thumb.jpg" alt="instagram" height="20px" width="20px"></a>
-      <a href="http://www.twitter.com"><img src="images/twitter-thumb.jpg" alt="twitter" height="20px" width="20px"></a>
-      <a href="http://www.youtube.com"><img src="images/YouTube_icon.png" alt="youtube" height="20px" width="20px"></a>
-      <img src="images/RSS-thumb.png" alt="RSS feed" height="20px" width="20px">
+    <div id="county">
+        <iframe id="countyBanner" src="http://putnamlibraries.info/just-a-menu/"></iframe>
+    </div>
+    <div id="mostFooter">
+       <div class="catalogBut">
+           <div>
+               <h4>Library Catalog</h4>
+               <a href="http://search.midhudsonlibraries.org/" target="_blank" class="catalogIMG"><img src="images/libbutton.jpg" class="catalogIMG" alt="Library Catalog Image"></a>
+           </div>
+       </div>
+       <div class="contactInfo">
+           <div>
+               <h4>Contact Us</h4>
+               <ul id="contactInfoList">
+                   <li>Reed Memorial Library</li>
+                   <li>1733 Route 6</li>
+                   <li>Carmel, NY 10512</li>
+                   <li>Phone: <span id="desktopPhone">845-225-2439</span><a href="tel:845-225-2439" id="mobilePhone">845-225-2439</a></li>
+                   <li>Fax: 845-225-1436</li>
+                   <li>Email: <a href="mailto:jbuck@carmellibrary.org">jbuck@carmellibrary.org</a></li>
+               </ul>
+           </div>
+       </div>
+       <div class="maps">
+           <div>
+               <h4>Maps:</h4>
+               <a href="https://goo.gl/maps/RMBx5E9yrHw" target="_blank" id="mapLink">Directions</a>
+               <div id="mapDiv">
+                   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.79566515083!2d-73.68023178435838!3d41.42195410181406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd4da1e8314bb3%3A0xe00ec3abaeb4cb4d!2sReed+Memorial+Library!5e0!3m2!1sen!2sus!4v1545163250284" allowfullscreen></iframe>
+               </div>
+           </div>
+        </div>
+        <div class="hours">
+            <div>
+                <h4>Hours</h4>
+                <table>
+                    <tr>
+                        <td>Monday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday:</td>
+                        <td>10:00AM - 8:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday:</td>
+                        <td>10:00AM - 8:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday:</td>
+                        <td>10:00AM - 5:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday:</td>
+                        <td>10:00AM - 3:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday:</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+       </div>
+   </div>
+   <div class="support">
+       <div>
+           <p id="supportBlurb">Part of the <a href="http://midhudson.org/about-mhls/" target="_blank" class="links">Mid Hudson Library System</a> | <a href="http://carmellibrary.org/wp-login.php" target="_blank" class="links">WebMaster Login</a> | <a href="mailto:bh05049p@pace.edu" class="links">Webmaster Email</a></p>
+       </div>
    </div>
 </footer>
-
+    <script src="scripts.js"></script>
 
 </body>
 </html>

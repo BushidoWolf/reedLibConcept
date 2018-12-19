@@ -25,7 +25,7 @@ function searchEncore(){
      var encoreBaseURLInput,encoreBaseURL, searchInput, scopeInput, searchString, scopeString, locationHref, charRegExString, base64Regex;
     /*base64_encoding_map includes special characters that need to be
      encoded using base64 - these chars are "=","/", "\", "?"
-     character : base64 encoded *//*
+     character : base64 encoded */
      var base64_encoding_map = {"=":"PQ==", "/": "Lw==", "\\":"XA==", "?":"Pw=="};
 
      var escapeRegExp = function(string) {
