@@ -34,24 +34,64 @@
     </div>
 <main>
 <div class="col1">
+ <h1>Hi</h1>
 </div>
 <div class="col2">
     <div id="upcoming">
         <h3>Upcoming Events</h3>
         <ul>
+            <li><span>December 18, 2018</span> – Computer Help, 10:00 am</li>
+            <li><span>December 18, 2018</span> – STRESS RELEASE STRATEGIES, 10:30 am</li>
+            <li><span>December 18, 2018</span> – HOLIDAY COOKIES TO BAKE YOUR DAY!, 4:30 pm</li>
+            <li><span>December 19, 2018</span> – In Stitches Knitting Club, 10:30 am</li>
+            <li><span>December 20, 2018</span> – Computer Help, 10:00 am</li>
         </ul>
+    </div>
+    <div id="social">
+        <h3>Follow Us!</h3>
+        <div id="socialbut">
+            <a href="http://www.facebook.com/ReedLibraryCarmel" target="_blank"><img src="images/facebook.png" alt="Facebook button"></a>
+        </div>
+    </div>
+    <div id="newsletter">
+        <h3>Newsletter Signup</h3>
+        <div id="newsLet">
+            <a href="https://visitor.r20.constantcontact.com/d.jsp?llr=b9bzz6iab&p=oi&m=1109101676353&sit=mp8an8tgb&f=09160585-e5f9-4bb3-a057-8aba4aa5c2f1" target="_blank"><img src="images/newsletter.png" alt="Newsletter Signup Button"></a>
+        </div>
     </div>
     <div id="QS">
         <h3>Catalog Quick Search</h3>
-        <div id="quickSearch"></div>
+        <div id="quickSearch">
+            <form action="?" onsubmit="return searchEncore()" _lpchecked="1">
+
+            	<!-- REQUIRED with id="encoreSearchInput" -->
+                <input id="encoreSearchInput" type="text">
+
+                <!-- REQUIRED INPUT with id="encoreBase": <ENCORE_FQDN> fully qualified domain name such as "encore.mylibrary.com" -->
+                <input type="hidden" id="encoreBase" value="http://search.midhudsonlibraries.org/iii/encore/search/">
+
+                <!-- OPTIONAL search location hidden field to limit to a predefined scope -->
+                <!-- <input type="hidden" id="encoreSearchLocation" value="__Lf:facetcollections:<Scope_#>:<Scope_#>:<Scope Label>::" /> -->
+
+            	<!-- OPTIONAL non-english language setting: <Language_Code> is code such as "spi" for spanish -->
+            	<!-- <input type="hidden" id="encoreLanguage" value="<Language_Code>" /> -->
+
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
     </div>
     <div id="libraryElf">
         <h3>Library Elf</h3>
-        <div id="libElf"></div>
+        <div id="libElf">
+            <a href="https://www.libraryelf.com/base/SignUp.aspx?lib=Reed" target="_blank"><img src="images/library_elf_logo.png" alt="Library Elf Button"></a>
+        </div>
     </div>
     <div id="mag">
         <h3>Digital Magazines</h3>
-        <div id="digiMag"></div>
+        <div id="digiMag">
+            <a href="https://www.rbdigital.com/midhudsonlibsysny/service/magazines/landing?" target="_blank"><img id="digiMagIMG" src="images/digiMagazine.jpg"></a>
+        </div>
     </div>
 </div>
 </main>
