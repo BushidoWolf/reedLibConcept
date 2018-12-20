@@ -66,6 +66,16 @@ h3 { font-size: 1.8vw;
     height: 15%;
     margin: auto;}
 .bold {font-weight: bold;}
+.noTextDeco { text-decoration: none;}
+.fontStuff { font-size: 1.4vw;}
+.pageAnchors:link { color: #AA0000;}
+.pageAnchors:visited { color: #5500AA;}
+.pageAnchors:visited:hover {color: #DDDD00;}
+.pageAnchors:hover { color: #DDDD00;}
+.pageAnchors:focus { color: #DDDD00;}
+.listSpacing li{ margin-bottom: 5%;}
+
+
 
 #social, #newsletter, #QS, #libraryElf, #digiMag {margin: auto;
     text-align: center;}
@@ -237,6 +247,7 @@ footer{ background-color: #BBBBBB;
     width: 80%;
     margin: auto;
     margin-bottom: 2%;}
+    .fontStuff { font-size: 3vw;}
 
 }
 
@@ -284,6 +295,7 @@ footer{ background-color: #BBBBBB;
     height: 15%;}
 #kidsEvents, #kidsEventsEmail { font-size: 3.5vw;}
 #kidsDigital { font-size: 3.5vw;}
+.fontStuff, .fontStuff li { font-size: 3.5vw;}
 
 /*------ Footer ----- */
 
