@@ -77,6 +77,40 @@ margin-bottom: 10%;}
 h1 { font-size: 2.1vw;}
 #aboutUsID p { font-size: 1.2vw;
     padding-left: 5%;}
+.buffer{ margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;}
+
+#calSub{ font-size: 1.2vw;}
+#calBlurb{ font-size: 1.2vw;}
+
+#kidsEvents, #kidsEventsEmail { font-size: 1.2vw;}
+#kidsDigital { font-size: 1.2vw;}
+#dbdNY, #dbdnyIMG, #dbdNYBlurb { display: inline-block;}
+#dbdnyIMG{ width: 30%;}
+#dbdNYBlurb { width: 65%;}
+#odfk, #odfkIMG, #odfkBlurb { display: inline-block;}
+#odfkIMG{ width: 30%;}
+#odfkBlurb { width: 65%;}
+#tb, #tbIMG, #tbBlurb { display: inline-block;}
+#tbIMG{ width: 30%;}
+#tbBlurb { width: 65%;}
+#dbdNYI{ width: 100%;
+    height: 5%;}
+#odfkI{ width: 100%;
+    height: 20%;}
+#tbI{ width: 90%;
+    height: 7%;}
+#kidsPics {}
+.kidIMG{display: inline-block;
+    border: 2px solid #000000;
+    padding: 2%;
+    background-color: #FFFFFF;
+    width: 40%;
+    margin: 2%;}
+.kidIMG p { text-align: center;}
+.kidI{ width: 100%;
+    height: 35%;}
 
 
 /*-----------------------------------------
@@ -188,9 +222,21 @@ footer{ background-color: #BBBBBB;
     #mapLink:hover { color: #DD0000;}
     #mapLink:focus { color: #DD0000;}
     h4{ font-size: 3.2vw; }
-    .col1 { margin: auto;
-        display: block;}
-    .col2 { display: none;}
+    .col1 { margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 90%;}
+    #aboutUsID p, a { font-size: 3.2vw;}
+    h1{ font-size: 4vw;}
+    #calSub{ font-size: 1.2vw;}
+    #calBlurb{ font-size: 1.2vw;}
+
+    #kidsEvents, #kidsEventsEmail { font-size: 3.2vw;}
+    #kidsDigital { font-size: 3.2vw;}
+    .kidIMG{display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;}
 
 }
 
@@ -230,6 +276,14 @@ footer{ background-color: #BBBBBB;
  .eventTitle h2 { font-size: 3.5vw;}
  .eventDetails { font-size: 3vw;}
 
+ #aboutUsID p, a { font-size: 3.5vw;}
+ h1{ font-size: 4vw;}
+ #calSub{ font-size: 3.5vw;}
+ #calBlurb{ font-size: 3vw;}
+ #aboutUsIMG { width: 50%;
+    height: 15%;}
+#kidsEvents, #kidsEventsEmail { font-size: 3.5vw;}
+#kidsDigital { font-size: 3.5vw;}
 
 /*------ Footer ----- */
 
@@ -283,4 +337,6 @@ footer{ background-color: #BBBBBB;
         .support p{ text-align: center;
             font-size: 3.5vw;}
         .support a{ font-size: 3.5vw;}
+
+
 }
