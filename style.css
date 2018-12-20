@@ -31,7 +31,7 @@ nav a:focus { color: #DD0000;}
     width: 60%;
     margin: auto;
     margin-left: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background-color: #BBBBBB;}
 .daGrid{ display: grid;}
 .eventSec{ margin-bottom: 10%;
@@ -41,13 +41,16 @@ nav a:focus { color: #DD0000;}
 .eventTitle{ margin: auto;
     display: block;}
 .eventTitle h2{ margin: auto;
-    text-align: center;}
+    text-align: center;
+    font-size: 1.7vw;}
 .eventIMGDiv{ display: inline;}
 .eventDetailsDiv{ display: inline;}
 .eventIMG{ display: inline;
-    float: left;}
+    float: left;
+    width: 40%;}
 .eventDetails{ display: inline;
-    vertical-align: middle;}
+    vertical-align: middle;
+    font-size: 1.1vw;}
 .col2 {float: right;
     display: inline-block;
     width: 22%;
@@ -157,8 +160,8 @@ footer{ background-color: #BBBBBB;
     #banner { width: 65%;
             height: 15%;}
     .col2{display: none;}
-
-
+ .eventTitle h2 { font-size: 2.5vw;}
+ .eventDetails { font-size: 2vw;}
 
     #map{ display: none;}
     #mapLink{ display: block;
@@ -215,6 +218,8 @@ footer{ background-color: #BBBBBB;
     .col1 { margin: auto;
         display: block;}
     .col2 { display: none;}
+ .eventTitle h2 { font-size: 3.5vw;}
+ .eventDetails { font-size: 3vw;}
 
 /*------ Footer ----- */
 
@@ -247,11 +252,11 @@ footer{ background-color: #BBBBBB;
             display: block;}
         #contactInfoList {display: block;
             margin: auto;
-            font-size: 4.2vw;}
+            font-size: 4vw;}
         #contactInfoList li {display: block;
             margin: auto;
-            font-size: 4.2vw;}
-        #contactInfoList a{ font-size: 4.2vw; }
+            font-size: 4vw;}
+        #contactInfoList a{ font-size: 4vw; }
         #desktopPhone{display: none;}
         #mobilePhone{ display: inline;}
         .maps{ margin: auto;
@@ -261,11 +266,11 @@ footer{ background-color: #BBBBBB;
         h4 {text-align: center;
             font-size: 5vw;}
         .hours table { margin: auto;}
-        .hours td { font-size: 4.2vw;}
+        .hours td { font-size: 4vw;}
         .support{ display: block;
             margin: auto;
             width: 90%;}
         .support p{ text-align: center;
-            font-size: 4vw;}
-        .support a{ font-size: 4vw;}
+            font-size: 3.5vw;}
+        .support a{ font-size: 3.5vw;}
 }
