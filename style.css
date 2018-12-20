@@ -33,29 +33,21 @@ nav a:focus { color: #DD0000;}
     margin-left: 10%;
     margin-bottom: 10%;
     background-color: #BBBBBB;}
-.eventSec{ margin: auto;
-    margin-bottom: 10%;
-    height: 45%;
+.daGrid{ display: grid;}
+.eventSec{ margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: block;}
 .eventTitle{ margin: auto;
     display: block;}
 .eventTitle h2{ margin: auto;
     text-align: center;}
-.eventIMGDiv{ margin: auto;
-    display: inline-block;
-    width: 40%;}
-.eventDetailsDiv{ margin: auto;
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%}
-.eventIMG{ display: inline-block;
-    margin: auto;
-    margin-left: 30%;}
-.eventDetails{ display: inline-flex;
-    flex-wrap: wrap;
-    margin: auto;
-    vertical-align: top;}
+.eventIMGDiv{ display: inline;}
+.eventDetailsDiv{ display: inline;}
+.eventIMG{ display: inline;
+    float: left;}
+.eventDetails{ display: inline;
+    vertical-align: middle;}
 .col2 {float: right;
     display: inline-block;
     width: 22%;
