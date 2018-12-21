@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <title>Home - Reed Memorial Library</title>
+    <title>Library Card - Reed Memorial Library</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,71 +34,98 @@
     </div>
 <main>
 <div class="col1">
-    <div class="daGrid">
-        <div class="eventSec">
-            <div class="eventTitle"><h2>MOVIE NIGHT!</h2></div>
-            <div  class="eventIMGDiv"><a href="images/movie-night.png" target="_blank"><img src="images/movie-night-217x395.png" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails"> THURSDAY December 27 AT 6:30 PM
-                <br><br>Join us for a movie night at the library!  Wear your favorite PJs, bring a blanket to sit on, and a friend (stuffed or human!).
-                <br>Popcorn and water will be served.
-                <br>For ages 5 and up.
-                <br>Registration is required, please call the library to register 845-225-2439.</span>
-            </div>
+    <div class="buffer">
+        <div class="fontStuff">
+            <h1>HOW TO GET A LIBRARY CARD</h1>
+            <p class="fontStuff">It’s easy! Just come in with identification that includes your name and current local address.
+
+            <br><br>Children under the age of 16 must apply for a card with a parent or guardian who presents proper identification and cosigns the registration card.
+
+            <br><br>To borrow Library materials, all persons must present a valid Mid-Hudson library card or acceptable proof of identity. Please note that you are responsible for all items checked out on your card.
+
+            <br><h2 class="subSec">Online Patron Self-Registration</h2>
+
+            You can register for a library card online to enable access to our digital content. Fill out and submit the form below and within one to two business days you will receive an email with your library card number and temporary PIN. This card can be used to access digital content including e-books, downloadable audiobooks, streaming music and videos and digital magazines. The physical card is needed to check out any physical items and can be picked up at Reed Library upon presentation of ID and address verification. Please contact the library with any questions, 845-225-2439.</p><br>
         </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>HOLIDAY COOKIES TO BAKE YOUR DAY!</h2></div>
-            <div  class="eventIMGDiv"><a href="images/crafternoon-121118.jpg" target="_blank"><img src="images/crafternoon-121118-465x465.jpg" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">TUESDAY DECEMBER 18 AT 4:30 PM
-                <br><br>Join us for a crafternoon creating a variety of cookies to pick and “chews” from.  All supplies will be provided, just bring your jolly good ideas!
-                <br><br>For 1st graders & up!  Registration required, please call the library to register, 845-225-2439.</span>
-            </div>
+        <div id="libCard" class="fontStuff">
+            <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td><label for="mySubject">Subject (required): </label></td>
+                            <td><input type="text" id="mySubject" name="mySubject" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myFName">First Name (required): </label></td>
+                            <td><input type="text" id="myFName" name="myFName" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myMName">Middle initial: </label></td>
+                            <td><input type="text" id="myMName" name="myMName"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myLName">Last Name (required): </label></td>
+                            <td><input type="text" id="myLName" name="myLName" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myEmail">E-mail (required): </label></td>
+                            <td><input type="email" id="myEmail" name="myEmail" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myHome">Physical Address (Street) (required): </label></td>
+                            <td><input type="text" id="myHome" name="myHome" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myCity">City, State, Zip (required): </label></td>
+                            <td><input type="text" id="myCity" name="myCity" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myPhone">Phone Number (with area code) (required): </label></td>
+                            <td><input type="text" id="myPhone" name="myPhone" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="myBDay">Birthday (mm/dd/yyyy) (required): </label></td>
+                            <td><input type="text" id="myBDay" name="myBDay" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td class="submitButt"><input type="submit" value="Submit" id="subButt"></td>
+                        </tr>
+                    </table>
+
+                </fieldset>
+            </form>
         </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>STRESS RELEASE STRATEGIES & ENERGY HEALING</h2></div>
-            <div  class="eventIMGDiv"><a href="images/STRESS-RELEASE.jpg" target="_blank"><img src="images/STRESS-RELEASE.jpg" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">TUESDAY DECEMBER 18 AT 10:30
-                <br><br>Rose Christmas will teach stress release strategies and energy healing techniques to get you through the busy holiday season smiling!
-                <br><br>Registration requested, walk-ins welcomed.  Please call the library to register, 845-225-2439.</span>
-            </div>
-        </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>SYBIL RIDES Author Meet and Greet</h2></div>
-            <div  class="eventIMGDiv"><a href="images/sybil-rides.jpg" target="_blank"><img src="images/sybil-rides-465x530.jpg" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">TUESDAY DECEMBER 11 AT 6:30 PM
-                <br><br>Meet Author Larry Maxwell.  Dr. Maxwell’s newly released book Sybil Rides, tells the inspiring true story of events leading to Sybil Ludington’s remarkable ride.
-                <br><br>Find out why Benedict Arnold is one of the heroes in this story and meet people on both sides of the struggle for American independence.
-                <br><br>For a holiday gift with local flair, consider a signed copy of Sybil Rides or one of the author’s other titles, all available for sale and signing.
-                <br><br>Refreshments served.  Registration requested.  Please call the library to register, 845-225-2439.</span>
-            </div>
-        </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>LIBRARY BOARD MEETING</h2></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">WEDNESDAY DECEMBER 5 AT 5 PM.</span>
-            </div>
-        </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>HOLIDAY ON THE LAKE</h2></div>
-            <div  class="eventIMGDiv"><a href="images/santa-claus-1827265__340.jpg" target="_blank"><img src="images/santa-claus-1827265__340.jpg" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">Join us for a movie night at the library!  Wear your favorite PJs, bring a blanket to sit on, and a friend (stuffed or human!).
-                <br>Popcorn and water will be served.
-                <br>For ages 5 and up.
-                <br>Registration is required, please call the library to register 845-225-2439.</span>
-            </div>
-        </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>READS-AT-REED BOOKCLUB</h2></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">TUESDAY DECEMBER 4 AT 7 PM.
-                <br><br>Books are available for pick up in the library.
-                <br><br>Join the discussion!</span>
-            </div>
-        </div>
-        <div class="eventSec">
-            <div class="eventTitle"><h2>MINDFULNESS MEDITATION BOOK GROUP</h2></div>
-            <div  class="eventIMGDiv"><a href="images/meditation.png" target="_blank"><img src="images/meditation-465x320.png" class="eventIMG"alt="Small Foot Poster"></a></div>
-            <div class="eventDetailsDiv"><span class="eventDetails">TUESDAY NOVEMBER 27, 6 PM TO 7:30 PM
-                <br><br>Learn tools that can strengthen mindful awareness, compassion and intentional living.  Monthly meetings will include book discussion , an occasional video, meditation and camaraderie.  This month’s selection is Big Magic: Creative Living Beyond Fear by Elizabeth Gilbert.  No prior meditation practice is necessary.   All are welcomed.
-                <br><br>Please call the library to register, 845-225-2439.</span>
-            </div>
+        <div class="fontStuff">
+            <h1>WHAT YOU CAN DO WITH YOUR LIBRARY CARD</h1>
+
+            <p class="fontStuff"><h2 class="subSec">Check your record on-line</h2>
+
+            Click <a href="https://midhudsonlibraries.org/iii/cas/login?service=https%3A%2F%2Fsearch.midhudsonlibraries.org%3A443%2Fiii%2Fencore%2Fj_acegi_cas_security_check&lang=eng&suite=cobalt" target="_blank" class="noTextDeco fontStuff pageAnchors">&ldquo;My Account&rdquo;</a>. Log in using your library card number and pin. Update personal information, view items currently checked out to you, renew those you are not quite finished with yet, pay fines, and keep a reading inventory.
+
+            <br><h2 class="subSec">Find and order books, DVDs, CDs, games</h2>
+
+            Click <a href="http://search.midhudsonlibraries.org/iii/encore/?lang=eng" target="_blank" class="noTextDeco fontStuff pageAnchors">&ldquo;Catalog&rdquo;</a>. Request a title, chose the library where you would like to pick it up, and receive a call or email when it is ready for you.
+
+            <br><h2 class="subSec">Borrow Ebooks and download audio books</h2>
+
+            Click <a href="http://mhls.lib.overdrive.com/EDCFA384-06F1-457F-8C6E-DDB1E7CD1431/10/50/en/Default.htm" target="_blank" class="noTextDeco fontStuff pageAnchors">&ldquo;OverDrive&rdquo;</a> to get started.
+
+            <br><h2 class="subSec">Borrow a Kindle</h2>
+
+            Try our e-readers loaded with current and classic titles.
+
+            <br><h2 class="subSec">Stream or download music, movies and more</h2>
+
+            Use your Reed Library card to stream or download music, movies, TV shows and audio books. Click <a href="https://www.hoopladigital.com/home" target="_blank" class="noTextDeco fontStuff pageAnchors">&ldquo;Hoopla&rdquo;</a> to get started.
+
+            <br><h2 class="subSec">Learn a Language</h2>
+
+            Click <a href="http://putnamlibraries.info/language/" target="_blank" class="noTextDeco fontStuff pageAnchors">&ldquo;Mango&rdquo;</a>. Try Mango Basic for beginners in a new language. The program teaches helpful everyday phrases in 22 foreign languages and 14 English as a Second Language (ESL) courses.
+
+            <br><h2 class="subSec">Visit a Museum</h2>
+
+            Use your Reed Library card to borrow passes to many great museums including The Intrepid Air and Space Museum, The Hudson River Museum, The Guggenheim Museum, The Mid-Hudson Children’s Museum, The American Museum of Natural History, and many more.
+            </p>
         </div>
     </div>
 </div>

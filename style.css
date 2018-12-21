@@ -74,7 +74,9 @@ h3 { font-size: 1.8vw;
 .pageAnchors:hover { color: #DDDD00;}
 .pageAnchors:focus { color: #DDDD00;}
 .listSpacing li{ margin-bottom: 5%;}
+.subSec{ font-size: 1.5vw;}
 
+label, input{ font-size: 1.4vw;}
 
 
 #social, #newsletter, #QS, #libraryElf, #digiMag {margin: auto;
@@ -84,7 +86,7 @@ h3 { font-size: 1.8vw;
 #aboutUsID{ margin-left: 10%;
     margin-right: 10%;
 margin-bottom: 10%;}
-h1 { font-size: 2.1vw;}
+h1 { font-size: 2.2vw;}
 #aboutUsID p { font-size: 1.2vw;
     padding-left: 5%;}
 .buffer{ margin-left: 5%;
@@ -181,9 +183,15 @@ footer{ background-color: #BBBBBB;
     margin: auto;}
 #supportBlurb{ margin: auto;
     text-align: center;}
-/* Down Arrow: &#9660*/
-/* target="_blank" for a new tab */
 
+
+.submitButt{ text-align: center;
+    border-bottom: 0;
+     font-size: 1.4vw;}
+#subButt{  font-size: 1.4vw;
+    width: 20%;
+    height: 10%;
+    color: #AA0000;}
 
 /* -----------------------------------------
     ---------------Tablet-------------------
@@ -248,6 +256,16 @@ footer{ background-color: #BBBBBB;
     margin: auto;
     margin-bottom: 2%;}
     .fontStuff { font-size: 3vw;}
+    .subSec{ font-size: 3.1vw;}
+
+    label, input{ font-size: 3vw;}
+    .submitButt{ text-align: center;
+        border-bottom: 0;
+         font-size: 3vw;}
+    #subButt{  font-size: 3vw;
+        width: 40%;
+        height: 30%;
+        color: #AA0000;}
 
 }
 
@@ -296,6 +314,8 @@ footer{ background-color: #BBBBBB;
 #kidsEvents, #kidsEventsEmail { font-size: 3.5vw;}
 #kidsDigital { font-size: 3.5vw;}
 .fontStuff, .fontStuff li { font-size: 3.5vw;}
+.subSec{ font-size: 3.7vw;}
+.buffer{ padding-bottom: 5%;}
 
 /*------ Footer ----- */
 
@@ -350,5 +370,13 @@ footer{ background-color: #BBBBBB;
             font-size: 3.5vw;}
         .support a{ font-size: 3.5vw;}
 
+        label, input{ font-size: 3.5vw;}
+        .submitButt{ text-align: center;
+            border-bottom: 0;
+             font-size: 3.5vw;}
+        #subButt{  font-size: 3.5vw;
+            width: 60%;
+            height: 40%;
+            color: #AA0000;}
 
 }
